@@ -300,6 +300,11 @@ body {
   font-size: 18px;
   font-weight: 700;
 }
+
+.view-more:hover {
+  text-decoration: underline;
+}
+
 /****** Populaires ***********/
 .populaires {
   width: 32%;
@@ -427,6 +432,16 @@ body {
   text-decoration: none;
   color: var(--second-color);
   padding-bottom: 15px;
+}
+
+.footer-item:hover {
+  text-decoration: underline;
+}
+
+/**** Proposition ****/
+.zoom-card:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
