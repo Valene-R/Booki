@@ -7,7 +7,7 @@
     <title>Booki</title>
     <meta name="description" content="">
 
-    <link  rel= "icon"  type= "image/png" href= "/favicon.png"> 
+    <link rel= "icon" type="image/png" href="/favicon.png"> 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
             <!-- Navigation -->
             <nav class="navigation">
                 <div class="nav-container">
-                    <img class="logo-nav" src="images/logo/Booki.png" alt="logo du site Booki">
+                    <img class="logo-nav" src="images/logo/Booki.png" alt="Logo du site Booki">
                     <ul class="menu-hebergements-activites">
                         <li class="list-menu">
                             <a class="menu-item" href="#hebergements">Hébergements</a>
@@ -41,7 +41,7 @@
             <!-- Hero header -->
             <div class="hero-header">
                 <h1 class="main-title">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p class="sub-title">En plein centre-ville ou en pleine nature</p>
+                <p class="subtitle">En plein centre-ville ou en pleine nature</p>
 
                 <!-- Formulaire de recherche -->
                 <form class="search-bar">
@@ -53,6 +53,14 @@
                     </div>
                     <input class="search-bar-input" type="search" placeholder="Où allez-vous ?">
                     <button class="search-bar-button">Rechercher</button>
+                    <!--mobile-->
+                    <div class="icon-mobile">
+                        <svg class="icon-magnifying-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                        </svg>
+                    </div>
+                    <!-- fin mobile -->
                 </form>
 
                 <!-- Filtres -->
@@ -231,7 +239,7 @@
                     <div class="populaires-cards">
                         <article class="card zoom-card">
                             <a class="populaires-link" href="#">
-                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Le soleil du matin</h3>
@@ -250,7 +258,7 @@
                         </article>
                         <article class="card zoom-card">
                             <a class="populaires-link" href="#">
-                                <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/aw-creative.jpg" alt="Chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
@@ -269,7 +277,7 @@
                         </article>
                         <article class="card zoom-card">
                             <a class="populaires-link" href="#">
-                                <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Bleu et Blanc</h3>
@@ -299,13 +307,17 @@
                     <article class="activites-card zoom-card">
                         <a class="activites-link" href="#">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Bateaux amarrés au Vieux-Port">
-                            <h3 class="card-title">Vieux-Port</h3>
+                            <div class="align-title"> <!-- <div> pour responsive -->
+                                <h3 class="card-title">Vieux-Port</h3>
+                            </div>
                         </a>
                     </article>
                     <article class="activites-card zoom-card">
                         <a class="activites-link" href="#">
                             <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
-                            <h3 class="card-title">Fort de Pomègues</h3>
+                            <div class="align-title"> <!-- <div> pour responsive -->
+                                <h3 class="card-title">Fort de Pomègues</h3>
+                            </div>
                         </a>
                     </article>
                     <article class="activites-card zoom-card">
