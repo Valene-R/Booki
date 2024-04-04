@@ -128,6 +128,19 @@ body {
   color: var(--third-color);
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
+}
+
+.icon-mobile {
+  display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 /**** Filtres ****/
@@ -588,13 +601,18 @@ body {
 
   .icon-mobile {
     /** responsive mobile **/
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 49px;
+    min-width: 49px;
     background-color: var(--main-color);
     border-radius: 15px;
     border: 1px solid var(--main-color);
     font-size: 18px;
     font-weight: 700;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
   }
 
   .icon-magnifying-glass {
@@ -602,7 +620,6 @@ body {
     fill: var(--third-color);
     width: 17px;
     height: 17px;
-    padding: 16px;
   }
 
   .search-bar-input {
@@ -888,6 +905,6 @@ body {
 
 @media (max-width: 332px) {
   .main-title {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
